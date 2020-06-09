@@ -21,7 +21,8 @@ class FooterComponent extends Component {
                                             Molina y Orizaba. Veracruz, <br/>
                                             Veracruz. C.P. 91910 <br/><br/>
 
-                                            Tel: (229) 937-84-04</p>
+                                            Tel: (229) 937-84-04 <br/>
+                                            Cel: (229) 985-29-45</p>
                                         </div>
                                     </div>
                                 </div>

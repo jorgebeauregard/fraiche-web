@@ -33,6 +33,7 @@ class NavComponent extends Component {
                                 <a className="navbar-item has-text-white" href="#branch" onClick={this.toggleIsActive}>Sucursales</a>
                                 <a className="navbar-item has-text-white" href="#products" onClick={this.toggleIsActive}>Productos destacados</a>
                                 <a className="navbar-item has-text-white" href="#faq" onClick={this.toggleIsActive}>Preguntas frecuentes</a>
+                                <a className="navbar-item has-text-white" href="#scents" onClick={this.toggleIsActive}>Genealogía</a>
                                 <a className="navbar-item has-text-white" href="#contact" onClick={this.toggleIsActive}>Contacto</a>
                             </div>
                         </div>

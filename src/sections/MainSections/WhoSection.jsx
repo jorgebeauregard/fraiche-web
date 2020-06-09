@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import './WhoSection.css';
 
 class WhoSection extends Component {
     state = {   

@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import rollOn from '../../images/rollOn.jpg';
 import softSkin from '../../images/softSkin.jpg';
-import helloKitty from '../../images/helloKitty.jpg';
+import toyStory from '../../images/toyStory.png';
 import coche from '../../images/coche.jpg';
 import aromatizante from '../../images/aromatizante.jpg';
-import axel from '../../images/axel.jpg';
+import bolsa from '../../images/bolsa.png';
 import spraySecrets from '../../images/spraySecrets.jpg';
 import perfumeros from '../../images/perfumeros.jpg';
 import liliana from '../../images/liliana.jpg';
@@ -30,11 +30,11 @@ class ProductSection extends Component {
                         <div className="tile is-vertical is-7">
                             <div className="tile">
                                 <div className="tile is-parent">
-                                    <article className="tile is-child notification has-background-axel box-shadow">
-                                        <p className="title has-text-white">Para hombres</p>
-                                        <p className="subtitle has-text-white">¡Te presentamos a Axel, uno de nuestros envases favoritos por los hombres. Llénalo de tu perfume preferido y disfrútalo! </p>
+                                    <article className="tile is-child notification has-background-softSkin box-shadow">
+                                        <p className="title has-text-white">Bolsas ecológicas</p>
+                                        <p className="subtitle has-text-white">Cuidemos juntos el planeta. Ve por la tuya a tu tienda favorita</p>
                                         <figure className="image is-1by1">
-                                            <img src={axel}/>
+                                            <img src={bolsa}/>
                                         </figure>
                                     </article>
                                 </div>
@@ -52,7 +52,7 @@ class ProductSection extends Component {
 
                             <div className="tile">
                                 <div className="tile is-parent">
-                                    <article className="tile is-child notification has-background-softSkin box-shadow">
+                                    <article className="tile is-child notification has-background-helloKitty box-shadow">
                                         <p className="title has-text-white is-size-4-fullhd">Soft Skin</p>
                                         <p className="subtitle has-text-white is-size-6-fullhd">Tu piel no volverá a ser la misma con nuestra nueva línea de cremas Soft Skin de Fraiche.</p>
                                         <figure className="image is-1by1">
@@ -95,11 +95,11 @@ class ProductSection extends Component {
                                     </article>
                                 </div>
                                 <div className="tile is-parent">
-                                    <article className="tile is-child notification has-background-helloKitty box-shadow">
+                                    <article className="tile is-child notification has-background-axel box-shadow">
                                         <p className="title has-text-white is-4">Infantil</p>
                                         <p className="subtitle has-text-white is-5">El agua de colonia de Hello Kitty es una gran oportunidad de sorprender a las niñas.</p>
                                         <figure className="image is-1by1">
-                                            <img src={helloKitty}/>
+                                            <img src={toyStory}/>
                                         </figure>
                                     </article>
                                 </div>
