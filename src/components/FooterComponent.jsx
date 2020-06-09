@@ -17,7 +17,7 @@ class FooterComponent extends Component {
                                         </div>
                                         <div className="column is-full">
                                             <p className="has-text-white">Fraiche Veracruz &copy; 2018. 
-                                            2 de abril #338 <br/> entre Tuero 
+                                            2 de abril #367 <br/> entre Tuero 
                                             Molina y Orizaba. Veracruz, <br/>
                                             Veracruz. C.P. 91910 <br/><br/>
 
