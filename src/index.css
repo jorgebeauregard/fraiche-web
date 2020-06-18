@@ -14,6 +14,10 @@ code {
     monospace;
 }
 
+.smallImg{
+  width: 150px;
+}
+
 .has-background-accent{
   background-color: #d10087;
 }
@@ -82,4 +86,10 @@ code {
 
 .paddingCenter{
   padding: 10px;
+}
+
+.no-side-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 10px !important;
 }

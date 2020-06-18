@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import sinfondo from './../../images/sinfondo.png'
 
 
 class BranchSection extends Component {
-    state = {  }
-    render() { 
-        return ( 
+    state = {}
+    render() {
+        return (
             <div>
                 <section className="section has-background-primary" id="branch">
                     <Fade top>
-                    <br/><h2 className="title is-2 is-size-3-mobile has-text-centered has-text-white">Conoce nuestras distintas sucursales</h2>
-                    <p className="subtitle is-5 has-text-centered marginTop animated fadeIn has-text-white">Da click en las direcciones para saber cómo llegar</p>
+                        <br /><h2 className="title is-2 is-size-3-mobile has-text-centered has-text-white">Conoce nuestras distintas sucursales</h2>
+                        <p className="subtitle is-5 has-text-centered marginTop animated fadeIn has-text-white">Da click en las direcciones para saber cómo llegar</p>
                     </Fade>
                 </section>
                 <section className="section has-background-white-ter">
@@ -65,16 +66,27 @@ class BranchSection extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </section>
 
                 <section className="section has-background-primary">
-                    <p className="has-text-centered title has-text-white is-4">Con gusto te atenderemos.</p>
+                    <div className="columns has-text-centered">
+                        <div className="column">
+                            <img src={sinfondo} className='smallImg'/>
+                        </div>
+                        <div className="column">
+                            <br/>
+                            <p className="has-text-centered title has-text-white is-4">Contamos con servicio a domicilio. <br/><br /> Llámanos a nuestras oficinas al <br/>(229) 985 29 45 </p>
+                        </div>
+                        <div className="column">
+                            <img src={sinfondo} className='smallImg'/>
+                        </div>
+                    </div>
                 </section>
             </div>
-         );
+        );
     }
 }
- 
+
 export default BranchSection;
