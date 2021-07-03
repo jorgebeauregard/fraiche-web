@@ -34,6 +34,7 @@ class BranchSection extends Component {
                             <div className="column is-3 has-text-centered">
                                 <a href="https://goo.gl/maps/wQSvhB4A4ZCm3kJH9"><p className="title has-text-primary is-4">Alacio Pérez #533 <span className="icon"><i className="fas fa-directions has-text-primary"></i></span></p></a>
                                 <p className="subtitle has-text-size-4">entre 1° de Mayo y Carranza</p>
+                                <p className="subtitle has-text-size-4 has-text-danger has-text-weight-bold">Próximamente</p>
                                 <p className="is-size-5">Tel: (229) 931-07-35</p>
 
                             </div>
@@ -46,23 +47,13 @@ class BranchSection extends Component {
                             </div>
                         </div>
                         <div className="columns marginTop">
-                            <div className="column is-half has-text-centered">
+                            <div className="column is-full has-text-centered">
                                 <p className="title has-text-black">Xalapa:</p>
                                 <div className="columns">
                                     <div className="column">
                                         <a href="https://goo.gl/maps/ZMYNriFST4T2"><p className="title has-text-primary is-4">Clavijero #141<span className="icon"><i className="fas fa-directions has-text-primary"></i></span> </p></a>
                                         <p className="subtitle has-text-size-4">entre Ocampo y Jesús Díaz</p>
                                         <p className="is-size-5">Tel: (228) 815-15-77</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="column is-half has-text-centered">
-                                <p className="title has-text-black">Cardel:</p>
-                                <div className="columns">
-                                    <div className="column">
-                                        <a href="https://goo.gl/maps/i7GhaXvzTqz"><p className="title has-text-primary is-4">Emiliano Zapata S/N<span className="icon"><i className="fas fa-directions has-text-primary"></i></span></p></a>
-                                        <p className="subtitle has-text-size-4">entre Ferrer Guardia y Las Vias</p>
-                                        <p className="is-size-5">Tel: (296) 962-38-64</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import scents from '../../images/scents.pdf';
+import scents from '../../images/scents2.pdf';
 
 
 class FAQSection extends Component {
