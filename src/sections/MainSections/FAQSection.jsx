@@ -39,7 +39,7 @@ class FAQSection extends Component {
                                             ¿Dónde puedo utilizar mi clave?
                                         </h3>
                                         <p className='is-size-5 has-text-white'>
-                                            En cualquiera de nuestras seis sucursales en Veracruz, Cardel y Xalapa. (Consulta nuestras direcciones y horarios dando click aquí)
+                                            En cualquiera de nuestras cuatro sucursales en Veracruz y Xalapa. (Consulta nuestras direcciones y horarios dando click <a href="#branch">aquí</a>)
                                         </p>
                                     </div>
                                 </article>

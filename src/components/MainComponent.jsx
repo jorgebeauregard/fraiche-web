@@ -32,7 +32,7 @@ class MainComponent extends Component {
                     <div className="modal-card">
                         <section className="modal-card-body has-text-centered no-side-padding">
                             <p className="title is-3">¡Contamos con <b className="has-text-primary">servicio a domicilio</b>!</p>
-                            <p className="subtitle is-4 has-text-weight-bold">Llámanos a nuestras oficinas al (229) 985 29 45</p>
+                            <p className="subtitle is-4 has-text-weight-bold">Llámanos al: (229) 985 29 45</p>
                             <img src={domicilio}></img>
                             <a className="button is-primary" onClick={this.toggleIsActive}>Cerrar</a>
                         </section>

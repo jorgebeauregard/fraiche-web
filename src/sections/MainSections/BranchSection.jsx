@@ -20,26 +20,25 @@ class BranchSection extends Component {
                             <div className="column has-text-centered is-full">
                                 <p className="title">Veracruz:</p>
                             </div>
-                            <div className="column is-3 has-text-centered">
+                            <div className="column is-4 has-text-centered">
                                 <a href="https://goo.gl/maps/psSpn2gEbUu"><p className="title has-text-primary is-4">2 de abril #367 <span className="icon"><i className="fas fa-directions has-text-primary"></i></span></p></a>
                                 <p className="subtitle has-text-size-4">entre Tuero Molina y Orizaba</p>
                                 <p className="is-size-5">Tel: (229) 937-84-04</p>
                                 <p className="is-size-5">Cel: (229) 985-29-45</p>
                             </div>
-                            <div className="column is-3 has-text-centered">
+                            <div className="column is-4 has-text-centered">
                                 <a href="https://goo.gl/maps/Zb9BLc5P2112"><p className="title has-text-primary is-4">Cortés #498 <span className="icon"><i className="fas fa-directions has-text-primary"></i></span></p></a>
                                 <p className="subtitle has-text-size-4">entre Guerrero y Allende</p>
                                 <p className="is-size-5">Tel: (229) 284-72-80</p>
                             </div>
-                            <div className="column is-3 has-text-centered">
+                            {/* <div className="column is-3 has-text-centered">
                                 <a href="https://goo.gl/maps/wQSvhB4A4ZCm3kJH9"><p className="title has-text-primary is-4">Alacio Pérez #533 <span className="icon"><i className="fas fa-directions has-text-primary"></i></span></p></a>
                                 <p className="subtitle has-text-size-4">entre 1° de Mayo y Carranza</p>
                                 <p className="subtitle has-text-size-4 has-text-danger has-text-weight-bold">Próximamente</p>
                                 <p className="is-size-5">Tel: (229) 931-07-35</p>
+                            </div> */}
 
-                            </div>
-
-                            <div className="column is-3 has-text-centered">
+                            <div className="column is-4 has-text-centered">
                                 <a href="https://goo.gl/maps/5GCsAzhKJhz"><p className="title has-text-primary is-4">Murillo #785 <span className="icon"><i className="fas fa-directions has-text-primary"></i></span></p></a>
                                 <p className="subtitle has-text-size-4">entre Matamoros y Aldama</p>
                                 <p className="is-size-5">Tel: (229) 165-07-55</p>
@@ -68,7 +67,7 @@ class BranchSection extends Component {
                         </div>
                         <div className="column">
                             <br/>
-                            <p className="has-text-centered title has-text-white is-4">Contamos con servicio a domicilio. <br/><br /> Llámanos a nuestras oficinas al <br/>(229) 985 29 45 </p>
+                            <p className="has-text-centered title has-text-white is-4">Contamos con servicio a domicilio. <br/><br /> Llámanos o escríbenos por WhatsApp al: <br/>(229) 985 29 45 </p>
                         </div>
                         <div className="column">
                             <img src={sinfondo} className='smallImg'/>
